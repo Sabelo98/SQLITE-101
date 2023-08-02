@@ -10,7 +10,7 @@ const db = await sqlite.open({
 });
 
 await db.migrate()
-
+console.log('...')
 
 // call the query using avail
 // create a function that returns all the greetings from the db
